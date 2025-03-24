@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#E6E1E8"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <!-- Nama Kategori -->
+        <TextView
+            android:id="@+id/txtNamaKategori"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Item Name"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+
+        <!-- Ikon Delete -->
+        <ImageView
+            android:id="@+id/btnDeleteKategori"
+            android:layout_width="24dp"
+            android:layout_height="40dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:src="@drawable/delete"
+            android:contentDescription="Delete Kategori"
+            app:tint="@android:color/holo_red_dark" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
