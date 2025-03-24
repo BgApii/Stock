@@ -16,6 +16,6 @@ public interface KategoriDao {
     @Delete
     void deleteKategori(Kategori kategori);
 
-    @Query("SELECT * FROM kategori")
+    @Query("SELECT * FROM kategori ORDER BY nama_kategori ASC")
     LiveData<List<Kategori>> getAllKategori();
 }

@@ -1,4 +1,4 @@
-package com.example.stock;
+package com.example.stock.activity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -11,6 +11,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.stock.R;
 import com.example.stock.data.Barang;
 import com.example.stock.view.BarangViewModel;
 

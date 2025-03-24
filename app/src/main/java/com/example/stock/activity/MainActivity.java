@@ -1,4 +1,4 @@
-package com.example.stock;
+package com.example.stock.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.stock.R;
 import com.example.stock.view.KategoriAdapter;
 import com.example.stock.view.KategoriViewModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;

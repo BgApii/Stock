@@ -1,4 +1,4 @@
-package com.example.stock;
+package com.example.stock.activity;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -10,6 +10,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.stock.R;
 import com.example.stock.data.Kategori;
 import com.example.stock.view.KategoriViewModel;
 
