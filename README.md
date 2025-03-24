@@ -30,7 +30,7 @@ Pastikan Anda sudah menginstal:
 ### Instalasi
 1. Clone repository ini menggunakan perintah berikut:
    ```bash
-   git clone https://github.com/BgApi/Stock.git
+   git clone https://github.com/BgApii/Stock.git
    ```
 2. Buka project dengan **Android Studio**.
 3. Pastikan semua dependency sudah terunduh. Buka file **build.gradle** dan klik **Sync Now** jika ada notifikasi sinkronisasi.
