@@ -5,6 +5,7 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,6 +17,7 @@ import com.example.stock.view.BarangViewModel;
 
 public class AddBarangActivity extends AppCompatActivity {
     private EditText edtNamaBarang, edtHargaBarang, edtJumlahBarang, edtNamaKategori;
+    private TextView tvTitle;
     private Button btnSave;
     private BarangViewModel barangViewModel;
     private int kategoriId;
@@ -33,6 +35,7 @@ public class AddBarangActivity extends AppCompatActivity {
         edtHargaBarang = findViewById(R.id.edtHargaBarang);
         edtJumlahBarang = findViewById(R.id.edtJumlahBarang);
         edtNamaKategori = findViewById(R.id.edtNamaKategori);
+        tvTitle = findViewById(R.id.tvTitle);
         btnSave = findViewById(R.id.btnSave);
         btnSave.setEnabled(false);
 
@@ -48,6 +51,7 @@ public class AddBarangActivity extends AppCompatActivity {
             edtHargaBarang.setText(String.valueOf(harga));
             edtJumlahBarang.setText(String.valueOf(jumlah));
             edtNamaKategori.setText(namaKategori);
+            tvTitle.setText("Edit Barang");
         }
         TextWatcher textWatcher = new TextWatcher() {
             @Override
