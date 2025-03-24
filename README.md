@@ -84,5 +84,9 @@ Pastikan Anda sudah menginstal:
 - Aplikasi ini mendukung mode offline dengan data yang disimpan secara lokal.
 
 ---
+
+**Created By Apri Supandi Pasaribu**
+
+---
 Selamat mencoba! 🎉
 
